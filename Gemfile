@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'bootstrap-generators'
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
@@ -44,7 +46,7 @@ group :development, :test do
   gem 'shoulda-matchers'
   gem 'quiet_assets'
   gem 'faker'
-  
+
 end
 
 group :development do
