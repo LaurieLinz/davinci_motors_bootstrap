@@ -18,6 +18,7 @@ feature 'Static Pages' do
 
     click_link 'About'
 
+
     expect(page.current_path).to eq(about_path)
 
     within('.navbar-header') do
@@ -25,6 +26,7 @@ feature 'Static Pages' do
     end
 
     within('li.active') do
+
       expect(page).to have_link("About", href: about_path)
     end
 
